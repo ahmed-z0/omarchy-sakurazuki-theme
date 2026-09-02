@@ -1,0 +1,169 @@
+# Omarchy shell surfaces for Sakurazuki - moonlit plum / muted rose
+
+[bar]
+background       = "#14111A"
+background-alpha = 1.0
+text             = "#D8D0DC"
+active           = "#B6849D"
+scale-with-font  = true
+size-horizontal  = 28
+size-vertical    = 30
+
+[hyprland]
+active-border            = "rgb(B6849D) rgb(C994B3) rgb(8D5F74) 45deg"
+active-border-foreground = "rgb(94ABD1) rgb(D8D0DC) rgb(C994B3) 45deg"
+
+[controls]
+normal-color        = "#D8D0DC"
+normal-fill-alpha   = 0.04
+normal-border       = "#6B5E72"
+normal-border-width = 1
+normal-border-alpha = 0.32
+
+hover-cursor-color        = "#E7DFE9"
+hover-cursor-fill-alpha   = 0.08
+hover-cursor-border       = "#94ABD1"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.44
+
+focus-color        = "#E7DFE9"
+focus-fill-alpha   = 0.10
+focus-border       = "#C994B3"
+focus-border-width = 1
+focus-border-alpha = 0.72
+
+selected-color        = "#E7DFE9"
+selected-fill-alpha   = 0.16
+selected-border       = "#B6849D"
+selected-border-width = 1
+selected-border-alpha = 0.62
+
+pressed-color        = "#E7DFE9"
+pressed-fill-alpha   = 0.22
+selection-color      = "#C994B3"
+selection-fill-alpha = 0.36
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+control-gap = 8
+control-padding-x = 10
+control-padding-y = 6
+input-padding-y = 7
+control-height = 28
+popup-row-height = 29
+row-gap = 7
+row-padding-x = 12
+label-gap = 4
+panel-gap = 14
+panel-padding = 18
+popup-padding = 14
+dropdown-width = 244
+searchable-dropdown-width = 264
+number-field-width = 120
+searchable-popup-min-height = 222
+
+[font]
+base-size = 12
+caption = 10
+body-small = 11
+body = 12
+subtitle = 13
+title = 14
+heading = 16
+display = 24
+display-large = 28
+icon-small = 11
+icon = 14
+icon-large = 18
+
+[popups]
+background       = "#1e1b27"
+background-alpha = 0.94
+text             = "#D8D0DC"
+border           = "hyprland.active-border"
+border-alpha     = 0.82
+border-width     = 1
+
+[tooltip]
+background       = "#14111A"
+background-alpha = 0.96
+text             = "#E7DFE9"
+border           = "#94ABD1"
+border-alpha     = 0.72
+
+[notifications]
+background       = "#1e1b27"
+background-alpha = 0.95
+text             = "#D8D0DC"
+border           = "hyprland.active-border"
+border-alpha     = 0.88
+border-width     = 1
+countdown        = "#C994B3"
+
+[launcher]
+background                = "#1e1b27"
+background-alpha          = 0.91
+text                      = "#D8D0DC"
+border                    = "hyprland.active-border"
+border-alpha              = 0.82
+border-width              = 2
+scrim                     = "#14111A"
+scrim-alpha               = 0.58
+selected-background       = "#2A2432"
+selected-background-alpha = 0.84
+selected-text             = "#94ABD1"
+selected-border           = "#B6849D"
+selected-border-alpha     = 0.88
+selected-border-width     = "1 0"
+selected-border-width-left = 6
+
+[menu]
+background                = "#1e1b27"
+background-alpha          = 0.93
+text                      = "#D8D0DC"
+border                    = "hyprland.active-border"
+border-alpha              = 0.78
+border-width              = 2
+scrim                     = "#14111A"
+scrim-alpha               = 0.52
+selected-background       = "#2A2432"
+selected-background-alpha = 0.76
+selected-text             = "#E7DFE9"
+selected-border           = "hyprland.active-border"
+selected-border-alpha     = 0.94
+selected-border-width     = "0 0 1 4"
+
+[polkit]
+background       = "#1e1b27"
+background-alpha = 0.97
+text             = "#E7DFE9"
+text-error       = "#B57A92"
+border           = "hyprland.active-border"
+border-error     = "#B57A92"
+border-alpha     = 0.94
+scrim            = "#14111A"
+scrim-alpha      = 0.62
+accent           = "#B6849D"
+
+[lock]
+background       = "#1e1b27"
+background-alpha = 0.82
+text             = "#E8E2EE"
+placeholder      = "#B29AAA"
+text-error       = "#B57A92"
+border           = "#B6849D"
+border-active    = "hyprland.active-border"
+border-error     = "#B57A92"
+border-alpha     = 0.92
+selection        = "#94ABD1"
+selection-alpha  = 0.42
+
+[image-picker]
+scrim                   = "#14111A"
+scrim-alpha             = 0.58
+text                    = "#E7DFE9"
+selected-border         = "#B6849D"
+selected-border-alpha   = 1.0
+unselected-border       = "#6B5E72"
+unselected-border-alpha = 0.34
